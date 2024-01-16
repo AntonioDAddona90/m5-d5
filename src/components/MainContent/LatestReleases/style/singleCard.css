@@ -1,0 +1,24 @@
+.singleCard {
+    width: 18rem;
+    cursor: pointer;
+  }
+  
+  .imgContainer {
+    width: 100%;
+    height: 25rem;
+    overflow: hidden;
+  }
+  .imgContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .cardTitle {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    cursor: pointer;
+  }

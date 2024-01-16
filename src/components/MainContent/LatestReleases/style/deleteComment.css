@@ -1,0 +1,7 @@
+.bi-trash {
+    transition: 0.3s;
+    font-size: 1.2rem;
+  }
+  .bi-trash:hover {
+    color: #d31212;
+  }
